@@ -1,0 +1,49 @@
+vouchers:
+  2K:
+    enabled: true
+    name: "2K"
+    material: "PAPER"
+    display-name: "&7* &a2K"
+    lore:
+      - "&7&m---------------------------------"
+      - "&7This voucher is worth &a2k"
+      - ""
+      - "&7&oClick to redeem"
+      - "&7&m---------------------------------"
+    command: "eco give %PLAYER% 2000"
+  20K:
+    enabled: true
+    name: "20K"
+    material: "PAPER"
+    display-name: "&7* &a2K"
+    lore:
+      - "&7&m---------------------------------"
+      - "&7This voucher is worth &a20k"
+      - ""
+      - "&7&oClick to redeem"
+      - "&7&m---------------------------------"
+    command: "eco give %PLAYER% 20000"
+  saber-rank-temp:
+    enabled: true
+    name: "Saber Rank Temp"
+    display-name: "&7* &9&lSaber &8Rank &7(&c30 days&7)"
+    lore:
+      - "&7&m---------------------------------"
+      - "&7This voucher will give you &9&lSaber &8Rank"
+      - ""
+      - "&7&oClick to redeem"
+      - "&7&m---------------------------------"
+    command: "pex user %PLAYER% group add Saber "" 2592000"
+  master-rank-temp:
+    enabled: true
+    name: "Master Rank Temp"
+    display-name: "&7* &7&lMaster &8Rank &7(&c30 days&7)"
+    lore:
+      - "&7&m---------------------------------"
+      - "&7This voucher will give you &7&lMaster &8Rank"
+      - ""
+      - "&7&oClick to redeem"
+      - "&7&m---------------------------------"
+    command: "pex user %PLAYER% group add Master "" 2592000"
+
+

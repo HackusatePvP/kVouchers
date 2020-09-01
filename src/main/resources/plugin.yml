@@ -1,0 +1,4 @@
+name: KVoucher
+version: ${project.version}
+main: cc.fatenetwork.kvoucher.Voucher
+api-version: 1.16
